@@ -1,115 +1,124 @@
+<!-- ✨ Ultimate Animated GitHub Profile for Nafiz (nafiz-byte) -->
 
-<!-- Professional Dynamic GitHub Profile README for nafiz-byte -->
+<!-- 🎬 Animated Banner -->
+<p align="center">
+  <img src="https://i.ibb.co/NV5Cgb6/animated-coding-banner.gif" alt="Animated Coding Banner" width="100%"/>
+</p>
+
+<h1 align="center">Hi 👋, I'm Nafiz</h1>
+<h3 align="center">💻 CSE Student | Python Developer | Automation & ML Enthusiast | Blockchain Explorer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Hi+there!+👋;I'm+Nafiz+-+Python+Developer;Automation+%7C+Blockchain+%7C+AI+Learner;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Python+Developer+🐍;Automation+and+Machine+Learning+Explorer+🤖;Blockchain+and+Smart+Contract+Learner+🧠;Welcome+to+my+GitHub+Profile!"/>
 </p>
 
 ---
 
-<h3 align="center">🚀 Python Developer | Automation Enthusiast | Blockchain Explorer</h3>
+### 🌟 About Me
+- 🎓 I'm a **Computer Science student**  
+- 🐍 Passionate about **Python development**  
+- ⚙️ Exploring **Automation**, **Blockchain**, and **Machine Learning**  
+- 💡 I love building things that make life easier through code  
+- 🌱 Currently learning **FastAPI** and **TensorFlow**  
+- 👯 Looking to collaborate on **ML & Automation projects**  
+- 📫 Reach me at: `your_email_here@gmail.com` *(edit later)*  
 
+---
+
+### 🧰 Languages & Tools
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nafiz-byte&label=Profile+Views&color=brightgreen&style=for-the-badge" alt="profile views" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45" height="45" alt="Python"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45" height="45" alt="C"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45" height="45" alt="Java"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45" height="45" alt="Linux"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="45" height="45" alt="VSCode"/>
 </p>
 
 ---
 
-## 🧠 About Me
-
-- 🔭 I’m a **Python Developer** focused on **Automation** and **Blockchain-based solutions**  
-- ⚙️ I love building efficient scripts and tools to make life easier through **automation**  
-- 💡 Exploring how **Python** integrates with **Web3**, **Smart Contracts**, and **AI-driven systems**  
-- 🌱 Currently learning **FastAPI**, **Web3.py**, and **Solidity**  
-- 💬 Ask me about **Python, automation, APIs, or blockchain logic**  
-- 📚 Always open to learning and collaboration opportunities  
-
----
-
-## 🛠️ Tech Stack & Tools
-
-| Category | Technologies |
-|-----------|---------------|
-| 💻 Programming | Python, JavaScript |
-| ⚙️ Frameworks | Flask, Django, FastAPI |
-| 🔗 Blockchain | Web3.py, Solidity, Ethereum |
-| 🧩 Automation | Selenium, BeautifulSoup, PyAutoGUI, Requests |
-| 🗄️ Database | MySQL, PostgreSQL, MongoDB |
-| ☁️ Tools | Git, Docker, Linux, VS Code, Postman |
+### 📊 GitHub Analytics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nafiz-byte&show_icons=true&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nafiz-byte&theme=tokyonight" height="165"/>
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" />
-  <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nafiz-byte&layout=compact&theme=tokyonight" height="165"/>
 </p>
 
 ---
 
-## 🚀 Featured Projects
-
-| Project | Description |
-|----------|--------------|
-| 🧠 **AutoTasker** | Automates repetitive desktop tasks using Python, Selenium, and PyAutoGUI. |
-| 🔗 **CryptoTrack** | Python + Web3.py app to monitor Ethereum wallet activity and visualize transactions. |
-| ⚙️ **SmartScript** | Lightweight CLI automation toolkit written in Python for developers and sysadmins. |
-
-> *(Replace these with your actual project links once ready.)*
+### 📌 Featured Projects
+<a href="https://github.com/nafiz-byte">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nafiz-byte&repo=YOUR_REPO_NAME&theme=tokyonight" />
+</a>
+<a href="https://github.com/nafiz-byte">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nafiz-byte&repo=YOUR_SECOND_REPO&theme=tokyonight" />
+</a>
 
 ---
 
-## 📊 GitHub Stats & Activity
-
+### 🎧 Now Playing on Spotify
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nafiz-byte&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nafiz-byte&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=nafiz-byte&theme=radical" alt="GitHub Streak" />
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing"/>
 </p>
 
 ---
 
-## 🧭 Contribution Graph
-
+### 🕒 Coding Activity (WakaTime)
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nafiz-byte&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&layout=compact&theme=tokyonight" height="200"/>
 </p>
 
 ---
 
-## 🌐 Connect with Me
-
+### 🌐 Connect with Me
 <p align="center">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/nafiz-byte"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/nafiz-byte" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="mailto:your_email_here@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## ⚡ Fun Fact
-
-> “I automate so I can spend more time innovating.” ⚙️  
+### 🐍 Contribution Animation
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
 
 ---
 
-⭐ **If you like my work, consider giving a star to my repositories!**
+### 🌎 3D Contribution Globe
+<p align="center">
+  <img src="https://github.com/nafiz-byte/nafiz-byte/blob/main/profile-3d-contrib/profile-night-green.svg" width="600" alt="3D contribution globe"/>
+</p>
 
-<!--
-**nafiz-byte/nafiz-byte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 💬 Random Dev Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🧩 Fun Fact
+> “A computer once beat me at chess, but it was no match for me at coding 😜”
+
+---
+
+### 🏆 Profile Visitors
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nafiz-byte&label=Profile%20views&color=0e75b6&style=flat" alt="visitor counter" />
+</p>
