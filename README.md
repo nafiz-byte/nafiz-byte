@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
 <img src="https://img.shields.io/badge/Java-%23f89820?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Blockchain-%234B0082?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain" />
+<img src="https://img.shields.io/badge/Blockchain-%234B0082?style=for-the-badge&logo=ethereum&logoColor=white" alt="Cloud" />
 <img src="https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 <img src="https://img.shields.io/badge/Networking-%23007ACC?style=for-the-badge&logo=networking&logoColor=white" alt="Networking" />
 </p>
