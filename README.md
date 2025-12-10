@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Nafiz
 
-### 🐍 Python Developer | ⚡ C & Java | ⛓️ Blockchain Enthusiast
+### 🐍 Python Developer | ⚡ C & Java | ⛓️ Cloude
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=1abc9c&width=700&lines=Turning+Ideas+into+Code;Exploring+Blockchain;Automating+the+Future" alt="Typing Animation" />
