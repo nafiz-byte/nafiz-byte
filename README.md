@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Nafiz 👋</h1>
+<h1 align="center">Hi, I'm Nafiz...</h1>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0077B5&center=true&vCenter=true&width=440&lines=Computer+Science+Engineer+Student;Aspiring+Python+Developer;Linux+and+Cloud+Enthusiast" alt="Typing Animation" />
