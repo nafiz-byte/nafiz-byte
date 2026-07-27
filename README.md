@@ -30,7 +30,7 @@ I combine strong academic fundamentals with practical, modern development tools.
 
 | Area | Focus & Tools | Why I Use It |
 | :--- | :--- | :--- |
-| **Fundamentals** | ⚙️ Python, C, Java, Data Structures & Algorithms | To understand memory management and robust application design. |
+| **Fundamentals** | ⚙️ Python, Django, C, Java, Data Structures & Algorithms | To understand memory management and robust application design. |
 | **System/Infra** | 🐧 Linux, Docker, AWS (Basics) | To ensure smooth deployment and scalable application architecture. |
 | **Databases** | 💾 PostgreSQL, SQLite | Learning relational data integrity and efficient querying. |
 
