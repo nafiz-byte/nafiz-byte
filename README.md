@@ -17,17 +17,19 @@ I'm a computer science student who learns by shipping. Most of what I build is b
 
 ### Things I've built
 
-**[PromptForge Academy](https://github.com/nafiz-byte/promptforge-academy)** &nbsp;·&nbsp; `FastAPI` `SQLAlchemy` `Jinja2`<br>
-A seven-module prompt-engineering course as a web app. Lessons, quizzes, XP and a leaderboard, a PDF certificate on completion, OTP login and carrier billing through bdapps.
+<a href="https://github.com/nafiz-byte/promptforge-academy"><img src="./assets/card-promptforge.svg" width="100%" alt="PromptForge Academy, live at academy.nafiz.xyz. FastAPI, SQLAlchemy, Jinja2. Screenshot of the landing page."></a>
 
-**[bdapps Revenue Agent](https://github.com/nafiz-byte/bdapps-agent)** &nbsp;·&nbsp; `Python` `requests` `pytest` `GitHub Actions`<br>
+A seven-module prompt-engineering course as a web app, live at **[academy.nafiz.xyz](https://academy.nafiz.xyz/)**. Lessons, quizzes, XP and a leaderboard, a PDF certificate on completion, OTP login and carrier billing through bdapps.
+
+<a href="https://github.com/nafiz-byte/bdapps-agent"><img src="./assets/card-bdapps-agent.svg" width="100%" alt="bdapps Revenue Agent. Python, pytest, GitHub Actions."></a>
+
 Signs in to several bdapps developer accounts every morning, pulls month-to-date revenue for each app, and sends one combined report to Telegram. It uses plain HTTP instead of a headless browser, so it also runs on shared hosting.
 
-**[QuizFy](https://github.com/nafiz-byte/quizfy)** &nbsp;·&nbsp; `Django` `PostgreSQL` `OpenRouter`<br>
+<a href="https://github.com/nafiz-byte/quizfy"><img src="./assets/card-quizfy.svg" width="100%" alt="QuizFy. Django, PostgreSQL, OpenRouter."></a>
+
 A Bangla quiz app where an LLM writes a fresh set of multiple-choice questions for each topic. Phone-number OTP sign-in, Robi subscription billing and a leaderboard.
 
-**[nasaPics](https://github.com/nafiz-byte/nasaPics)** &nbsp;·&nbsp; `Streamlit`<br>
-NASA's Astronomy Picture of the Day in a one-file web app.
+Also: **[nasaPics](https://github.com/nafiz-byte/nasaPics)**, NASA's Astronomy Picture of the Day in a one-file Streamlit app.
 
 ### Stack
 
