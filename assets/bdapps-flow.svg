@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 142" width="800" height="142" role="img" aria-labelledby="t d">
+  <title id="t">What I've wired up on bdapps</title>
+  <desc id="d">A subscriber's path through a bdapps app: OTP request, OTP verify, subscription, carrier charge, and a daily revenue report sent to Telegram.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .node { opacity: 0; animation-duration: 7s; animation-iteration-count: infinite; }
+    @keyframes n0 { 0% { opacity: 0; } 1.5%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .n0 { animation-name: n0; }
+    @keyframes n1 { 0%, 16.5% { opacity: 0; } 19%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .n1 { animation-name: n1; }
+    @keyframes n2 { 0%, 34% { opacity: 0; } 36.5%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .n2 { animation-name: n2; }
+    @keyframes n3 { 0%, 51.5% { opacity: 0; } 54%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .n3 { animation-name: n3; }
+    @keyframes n4 { 0%, 69% { opacity: 0; } 71.5%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .n4 { animation-name: n4; }
+    .prog { stroke-dasharray: 600; stroke-dashoffset: 600; animation: prog 7s linear infinite; }
+    @keyframes prog {
+      0% { stroke-dashoffset: 600; opacity: 1; }
+      70%, 90% { stroke-dashoffset: 0; opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+    .head { animation: head 7s linear infinite; }
+    @keyframes head {
+      0% { transform: translateX(0); opacity: 1; }
+      70% { transform: translateX(600px); opacity: 1; }
+      76%, 100% { transform: translateX(600px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .node, .prog, .head { animation: none; }
+      .node { opacity: 1; }
+      .prog { stroke-dashoffset: 0; }
+      .head { opacity: 0; }
+    }
+  </style>
+
+  <rect x=".5" y=".5" width="799" height="141" rx="14" fill="#151b23" stroke="#3d444d"/>
+  <line x1="100" y1="76" x2="700" y2="76" stroke="#3d444d" stroke-width="2"/>
+  <line class="prog" x1="100" y1="76" x2="700" y2="76" stroke="#f0883e" stroke-width="2"/>
+  <circle class="head" cx="100" cy="76" r="13" fill="#f0883e" fill-opacity=".22"/>
+
+  <text class="sans" x="100" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#9198a1">OTP</text>
+  <text class="sans node n0" x="100" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#f0f6fc">OTP</text>
+  <circle cx="100" cy="76" r="6.5" fill="#151b23" stroke="#3d444d" stroke-width="2"/>
+  <circle class="node n0" cx="100" cy="76" r="7.5" fill="#f0883e"/>
+  <text class="mono" x="100" y="110" font-size="13" text-anchor="middle" fill="#656c76">otp/request</text>
+  <text class="sans" x="250" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#9198a1">Verify</text>
+  <text class="sans node n1" x="250" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#f0f6fc">Verify</text>
+  <circle cx="250" cy="76" r="6.5" fill="#151b23" stroke="#3d444d" stroke-width="2"/>
+  <circle class="node n1" cx="250" cy="76" r="7.5" fill="#f0883e"/>
+  <text class="mono" x="250" y="110" font-size="13" text-anchor="middle" fill="#656c76">otp/verify</text>
+  <text class="sans" x="400" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#9198a1">Subscribe</text>
+  <text class="sans node n2" x="400" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#f0f6fc">Subscribe</text>
+  <circle cx="400" cy="76" r="6.5" fill="#151b23" stroke="#3d444d" stroke-width="2"/>
+  <circle class="node n2" cx="400" cy="76" r="7.5" fill="#f0883e"/>
+  <text class="mono" x="400" y="110" font-size="13" text-anchor="middle" fill="#656c76">subscription/send</text>
+  <text class="sans" x="550" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#9198a1">Charge</text>
+  <text class="sans node n3" x="550" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#f0f6fc">Charge</text>
+  <circle cx="550" cy="76" r="6.5" fill="#151b23" stroke="#3d444d" stroke-width="2"/>
+  <circle class="node n3" cx="550" cy="76" r="7.5" fill="#f0883e"/>
+  <text class="mono" x="550" y="110" font-size="13" text-anchor="middle" fill="#656c76">caas/direct/debit</text>
+  <text class="sans" x="700" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#9198a1">Report</text>
+  <text class="sans node n4" x="700" y="48" font-size="19" font-weight="600" text-anchor="middle" fill="#f0f6fc">Report</text>
+  <circle cx="700" cy="76" r="6.5" fill="#151b23" stroke="#3d444d" stroke-width="2"/>
+  <circle class="node n4" cx="700" cy="76" r="7.5" fill="#f0883e"/>
+  <text class="mono" x="700" y="110" font-size="13" text-anchor="middle" fill="#656c76">revenue → Telegram</text>
+</svg>

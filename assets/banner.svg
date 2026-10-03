@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" role="img" aria-labelledby="t d">
+  <title id="t">Hi, I'm Nafiz.</title>
+  <desc id="d">CS student and Python backend developer building subscription apps on bdapps. Learning in public: build, break, fix, repeat. Eight bits spell N, A, F, I, Z one byte at a time.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .step { fill: #9198a1; animation: step 8s infinite; }
+    .s2 { animation-delay: 2s; }
+    .s3 { animation-delay: 4s; }
+    .s4 { animation-delay: 6s; }
+    @keyframes step { 0%, 22% { fill: #f0883e; } 26%, 96% { fill: #9198a1; } 100% { fill: #f0883e; } }
+
+    .role { opacity: 0; animation: role 12s infinite; }
+    .r1 { animation-delay: -.6s; }
+    .r2 { animation-delay: 3.4s; }
+    .r3 { animation-delay: 7.4s; }
+    @keyframes role {
+      0% { opacity: 0; transform: translateY(8px); }
+      5%, 28.3% { opacity: 1; transform: translateY(0); }
+      33.3%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+
+    .bit { animation-duration: 10s; animation-iteration-count: infinite; }
+    @keyframes k00001 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 1; } 100% { opacity: 0; } }
+    .p00001 { opacity: 0; animation-name: k00001; }
+    @keyframes k10011 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 1; } 100% { opacity: 1; } }
+    .p10011 { opacity: 1; animation-name: k10011; }
+    @keyframes k10100 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 1; } }
+    .p10100 { opacity: 1; animation-name: k10100; }
+    @keyframes k10101 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 1; } 100% { opacity: 1; } }
+    .p10101 { opacity: 1; animation-name: k10101; }
+    @keyframes k01010 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 1; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
+    .p01010 { opacity: 0; animation-name: k01010; }
+    @keyframes k10000 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 1; } }
+    .p10000 { opacity: 1; animation-name: k10000; }
+    @keyframes k01000 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 1; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
+    .p01000 { opacity: 0; animation-name: k01000; }
+    @keyframes k00100 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
+    .p00100 { opacity: 0; animation-name: k00100; }
+    @keyframes k00010 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
+    .p00010 { opacity: 0; animation-name: k00010; }
+
+    .sweep { animation: sweep 9s linear infinite; }
+    @keyframes sweep { 0% { transform: translateX(120px); } 65%, 100% { transform: translateX(820px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .step, .role, .bit, .sweep { animation: none; }
+      .s1 { fill: #f0883e; }
+      .r1 { opacity: 1; }
+    }
+  </style>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#3d444d"/></pattern>
+    <pattern id="dotsA" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1.2" fill="#f0883e"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="250"><rect width="800" height="250" fill="url(#fade)"/></mask>
+    <mask id="sw" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="250"><rect class="sweep" x="-220" width="220" height="250" fill="url(#band)"/></mask>
+    <clipPath id="card"><rect x=".5" y=".5" width="799" height="249" rx="14"/></clipPath>
+  </defs>
+
+  <rect x=".5" y=".5" width="799" height="249" rx="14" fill="#151b23" stroke="#3d444d"/>
+  <g clip-path="url(#card)">
+    <g mask="url(#m)">
+      <rect width="800" height="250" fill="url(#dots)"/>
+      <rect width="800" height="250" fill="url(#dotsA)" mask="url(#sw)"/>
+    </g>
+  </g>
+
+  <text class="mono" x="44" y="70" font-size="12.5" letter-spacing="2.5" fill="#f0883e">LEARNING IN PUBLIC</text>
+  <text class="sans" x="42" y="126" font-size="52" font-weight="700" fill="#f0f6fc">Hi, I'm Nafiz.</text>
+  <text class="sans role r1" x="44" y="160" font-size="20" fill="#9198a1">CS student · Python backend developer</text>
+  <text class="sans role r2" x="44" y="160" font-size="20" fill="#9198a1">Building subscription apps on bdapps</text>
+  <text class="sans role r3" x="44" y="160" font-size="20" fill="#9198a1">FastAPI · Django · bots · automations</text>
+  <text class="mono" x="44" y="202" font-size="14.5">
+    <tspan class="step s1">build</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s2">break</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s3">fix</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s4">repeat</tspan>
+  </text>
+
+  <text class="mono" x="442" y="96" font-size="12.5" fill="#9198a1">nafiz-byte</text>
+  <text class="mono" x="756" y="96" font-size="12.5" fill="#656c76" text-anchor="end">1 byte at a time</text>
+
+  <g class="mono" font-size="16" font-weight="700" text-anchor="middle">
+    <rect x="442.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="459" y="130.5" fill="#656c76">0</text>
+    <g><rect x="482" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="499" y="130.5" fill="#151b23">1</text></g>
+    <rect x="522.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="539" y="130.5" fill="#656c76">0</text>
+    <rect x="562.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="579" y="130.5" fill="#656c76">0</text>
+    <g class="bit p00001"><rect x="562" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="579" y="130.5" fill="#151b23">1</text></g>
+    <rect x="602.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="619" y="130.5" fill="#656c76">0</text>
+    <g class="bit p10011"><rect x="602" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="619" y="130.5" fill="#151b23">1</text></g>
+    <rect x="642.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="659" y="130.5" fill="#656c76">0</text>
+    <g class="bit p10100"><rect x="642" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="659" y="130.5" fill="#151b23">1</text></g>
+    <rect x="682.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="699" y="130.5" fill="#656c76">0</text>
+    <g class="bit p10101"><rect x="682" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="699" y="130.5" fill="#151b23">1</text></g>
+    <rect x="722.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
+    <text x="739" y="130.5" fill="#656c76">0</text>
+    <g class="bit p01010"><rect x="722" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="739" y="130.5" fill="#151b23">1</text></g>
+  </g>
+
+  <text class="mono bit p10000" x="442" y="166" font-size="12.5" fill="#656c76">0x4E</text>
+  <text class="mono" x="672" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">N</text>
+  <text class="mono bit p10000" x="672" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">N</text>
+  <text class="mono bit p01000" x="442" y="166" font-size="12.5" fill="#656c76">0x41</text>
+  <text class="mono" x="692" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">A</text>
+  <text class="mono bit p01000" x="692" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">A</text>
+  <text class="mono bit p00100" x="442" y="166" font-size="12.5" fill="#656c76">0x46</text>
+  <text class="mono" x="712" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">F</text>
+  <text class="mono bit p00100" x="712" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">F</text>
+  <text class="mono bit p00010" x="442" y="166" font-size="12.5" fill="#656c76">0x49</text>
+  <text class="mono" x="732" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">I</text>
+  <text class="mono bit p00010" x="732" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">I</text>
+  <text class="mono bit p00001" x="442" y="166" font-size="12.5" fill="#656c76">0x5A</text>
+  <text class="mono" x="752" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">Z</text>
+  <text class="mono bit p00001" x="752" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">Z</text>
+</svg>
