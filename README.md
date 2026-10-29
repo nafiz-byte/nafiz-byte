@@ -1,6 +1,6 @@
 # Nafiz
 
-**Web Application Developer** · PHP, Python, FastAPI & Django
+**Web Application Developer** !!!
 
 I build web applications with real-world integrations—phone OTP, subscription billing, AI-assisted learning products, and the automation that keeps them running. I'm especially interested in backend systems that connect different services into one useful product.
 
