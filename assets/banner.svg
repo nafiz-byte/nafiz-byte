@@ -1,53 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" width="1100" height="360" role="img" aria-labelledby="title desc">
-  <title id="title">Nafiz — Web Application Developer</title>
-  <desc id="desc">Editorial dark banner introducing Nafiz, a web application developer building useful web products, APIs, and automations with Python.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 430" width="1120" height="430" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Nafiz — Building useful software</title>
+  <desc id="dsc">Premium editorial banner for Nafiz, a web application developer, with refined typography and a copper monogram.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#10151d"/><stop offset="1" stop-color="#0a0f16"/></linearGradient>
-    <radialGradient id="halo"><stop offset="0" stop-color="#f0883e" stop-opacity=".16"/><stop offset="1" stop-color="#f0883e" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38404b" stroke-opacity=".22" stroke-width=".8"/></pattern>
-    <clipPath id="frame"><rect x="1" y="1" width="1098" height="358" rx="19"/></clipPath>
+    <linearGradient id="base" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#141922"/><stop offset="1" stop-color="#090e14"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e88c51" stop-opacity=".14"/><stop offset="1" stop-color="#e88c51" stop-opacity="0"/></radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc08c"/><stop offset=".55" stop-color="#e89152"/><stop offset="1" stop-color="#b75f35"/></linearGradient>
+    <pattern id="lines" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#69717e" stroke-opacity=".11" stroke-width="1"/></pattern>
+    <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".6" fill="#8c99a7" opacity=".23"/></pattern>
+    <clipPath id="outer"><rect x="1" y="1" width="1118" height="428" rx="20"/></clipPath>
+    <clipPath id="monoclip"><rect x="743" y="111" width="299" height="248" rx="18"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="1098" height="358" rx="19" fill="url(#bg)" stroke="#313a45" stroke-width="1.5"/>
-  <g clip-path="url(#frame)">
-    <rect x="0" y="0" width="1100" height="360" fill="url(#grid)"/>
-    <circle cx="914" cy="95" r="260" fill="url(#halo)"/>
-    <path d="M 0 316 H 1100" stroke="#303945" stroke-width="1"/>
+  <rect x="1" y="1" width="1118" height="428" rx="20" fill="url(#base)" stroke="#38414b" stroke-width="1.5"/>
+  <g clip-path="url(#outer)">
+    <rect width="1120" height="430" fill="url(#lines)"/>
+    <circle cx="919" cy="178" r="302" fill="url(#glow)"/>
+    <path d="M0 380H1120" stroke="#343d47" stroke-width="1"/>
+    <rect x="0" y="381" width="1120" height="49" fill="#0c1118"/>
   </g>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
-    <rect x="60" y="49" width="8" height="8" rx="2" fill="#f0883e"/>
-    <text x="82" y="58" fill="#f0a86a" font-size="13" font-weight="700" letter-spacing="2.8">WEB APPLICATION DEVELOPER</text>
-    <text x="58" y="158" fill="#f3f6fb" font-size="77" font-weight="780" letter-spacing="-3.5">Hi, I'm Nafiz.</text>
-    <text x="61" y="205" fill="#c5cbd4" font-size="22" font-weight="400">I build useful things for the web.</text>
-    <text x="61" y="241" fill="#87919e" font-size="16">Products. Backends. APIs. Automation.</text>
+    <text x="61" y="61" fill="#f5f1eb" font-size="29" font-weight="800" letter-spacing="-1.2">N.</text>
+    <rect x="109" y="35" width="1" height="30" fill="#46505a"/>
+    <text x="133" y="54" fill="#cbd0d7" font-size="12.5" font-weight="650" letter-spacing="2.2">NAFIZ / WEB APP DEVELOPER</text>
+    <text x="1057" y="53" fill="#9eabb7" font-size="12" text-anchor="end" letter-spacing="1.2">SELECTED WORK — 2026</text>
+    <path d="M61 83H1059" stroke="#38424d" stroke-width="1"/>
+    <text x="58" y="180" fill="#f4f2ed" font-size="67" font-weight="760" letter-spacing="-2.9">Building useful</text>
+    <text x="58" y="254" fill="#f4f2ed" font-size="78" font-weight="800" letter-spacing="-3.9">software<tspan fill="#e9975e">.</tspan></text>
+    <rect x="61" y="276" width="53" height="3" rx="1.5" fill="url(#metal)"/>
+    <text x="61" y="315" fill="#b9c1cb" font-size="19" font-weight="400">Web applications, backend systems, and</text>
+    <text x="61" y="343" fill="#b9c1cb" font-size="19" font-weight="400">the automation that keeps things running.</text>
   </g>
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="60" y="338" font-size="13" fill="#8d98a7" letter-spacing="1">PYTHON</text>
-    <circle cx="135" cy="333" r="2" fill="#f0883e"/>
-    <text x="151" y="338" font-size="13" fill="#8d98a7" letter-spacing="1">FASTAPI</text>
-    <circle cx="245" cy="333" r="2" fill="#f0883e"/>
-    <text x="261" y="338" font-size="13" fill="#8d98a7" letter-spacing="1">DJANGO</text>
-    <text x="1040" y="338" text-anchor="end" font-size="13" fill="#f0883e" letter-spacing="1">NAFIZ.XYZ / 2026</text>
+  <g>
+    <rect x="755" y="123" width="298" height="247" rx="19" fill="#070b11" opacity=".6"/>
+    <rect x="743" y="111" width="299" height="248" rx="18" fill="#151b24" stroke="#4b4a49" stroke-width="1.5"/>
+    <g clip-path="url(#monoclip)">
+      <rect x="743" y="111" width="299" height="248" fill="url(#micro)"/>
+      <circle cx="896" cy="235" r="130" fill="url(#glow)"/>
+      <path d="M766 137H1019 M766 335H1019" stroke="#39424d" stroke-width=".8"/>
+      <path d="M801 297V173L979 297V173" fill="none" stroke="#553c2d" stroke-width="33" stroke-linecap="square" stroke-linejoin="miter" transform="translate(2 3)" opacity=".68"/>
+      <path d="M801 297V173L979 297V173" fill="none" stroke="url(#metal)" stroke-width="28" stroke-linecap="square" stroke-linejoin="miter"/>
+      <path d="M755 349L1041 111" stroke="#c17b4c" stroke-width="1" opacity=".24"/>
+      <path d="M743 170L842 111 M943 359L1042 260" stroke="#bd7346" stroke-width="1" opacity=".15"/>
+    </g>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+      <rect x="763" y="126" width="6" height="6" rx="1.5" fill="#e9975e"/>
+      <text x="779" y="133" fill="#a3aeba" font-size="11" letter-spacing="1.3">PERSONAL MARK</text>
+      <text x="1019" y="344" text-anchor="end" fill="#a3aeba" font-size="10.5" letter-spacing="1.1">N / 001</text>
+    </g>
   </g>
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <rect x="674" y="61" width="364" height="229" rx="14" fill="#111923" stroke="#39434f" stroke-width="1.5"/>
-    <path d="M 674 104 H 1038" stroke="#323d49"/>
-    <circle cx="697" cy="83" r="5" fill="#fb7b72"/><circle cx="715" cy="83" r="5" fill="#e3b341"/><circle cx="733" cy="83" r="5" fill="#3fb950"/>
-    <text x="856" y="88" text-anchor="middle" fill="#84909d" font-size="12">~/nafiz/workspace</text>
-    <text x="702" y="140" fill="#596776" font-size="13">01</text>
-    <text x="735" y="140" fill="#bfcbd7" font-size="13">focus</text>
-    <text x="790" y="140" fill="#f0883e" font-size="13">=</text>
-    <text x="807" y="140" fill="#a7c4f1" font-size="13">"web apps"</text>
-    <text x="702" y="170" fill="#596776" font-size="13">02</text>
-    <text x="735" y="170" fill="#bfcbd7" font-size="13">build</text>
-    <text x="790" y="170" fill="#f0883e" font-size="13">=</text>
-    <text x="807" y="170" fill="#a7c4f1" font-size="13">"with purpose"</text>
-    <text x="702" y="200" fill="#596776" font-size="13">03</text>
-    <text x="735" y="200" fill="#bfcbd7" font-size="13">mindset</text>
-    <text x="797" y="200" fill="#f0883e" font-size="13">=</text>
-    <text x="814" y="200" fill="#a7c4f1" font-size="13">"ship &amp; learn"</text>
-    <path d="M 700 227 H 1011" stroke="#2c3743"/>
-    <circle cx="709" cy="256" r="5" fill="#3fb950"/>
-    <text x="725" y="260" fill="#9acda6" font-size="12" letter-spacing="1">CURRENTLY BUILDING</text>
-    <text x="1008" y="260" text-anchor="end" fill="#647280" font-size="12">●</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="1.1">
+    <text x="61" y="411" fill="#f1a36e">01</text><text x="87" y="411" fill="#a4aeb9">WEB PRODUCTS</text>
+    <text x="342" y="411" fill="#f1a36e">02</text><text x="368" y="411" fill="#a4aeb9">PYTHON BACKENDS</text>
+    <text x="648" y="411" fill="#f1a36e">03</text><text x="674" y="411" fill="#a4aeb9">AUTOMATION</text>
+    <text x="1058" y="411" text-anchor="end" fill="#e9975e">NAFIZ.XYZ ↗</text>
   </g>
 </svg>
