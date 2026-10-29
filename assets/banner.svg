@@ -1,127 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" role="img" aria-labelledby="t d">
-  <title id="t">Hi, I'm Nafiz.</title>
-  <desc id="d">CS student and Python backend developer building subscription apps on bdapps. Learning in public: build, break, fix, repeat. Eight bits spell N, A, F, I, Z one byte at a time.</desc>
-  <style>
-    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .step { fill: #9198a1; animation: step 8s infinite; }
-    .s2 { animation-delay: 2s; }
-    .s3 { animation-delay: 4s; }
-    .s4 { animation-delay: 6s; }
-    @keyframes step { 0%, 22% { fill: #f0883e; } 26%, 96% { fill: #9198a1; } 100% { fill: #f0883e; } }
-
-    .role { opacity: 0; animation: role 12s infinite; }
-    .r1 { animation-delay: -.6s; }
-    .r2 { animation-delay: 3.4s; }
-    .r3 { animation-delay: 7.4s; }
-    @keyframes role {
-      0% { opacity: 0; transform: translateY(8px); }
-      5%, 28.3% { opacity: 1; transform: translateY(0); }
-      33.3%, 100% { opacity: 0; transform: translateY(-8px); }
-    }
-
-    .bit { animation-duration: 10s; animation-iteration-count: infinite; }
-    @keyframes k00001 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 1; } 100% { opacity: 0; } }
-    .p00001 { opacity: 0; animation-name: k00001; }
-    @keyframes k10011 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 1; } 100% { opacity: 1; } }
-    .p10011 { opacity: 1; animation-name: k10011; }
-    @keyframes k10100 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 1; } }
-    .p10100 { opacity: 1; animation-name: k10100; }
-    @keyframes k10101 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 1; } 100% { opacity: 1; } }
-    .p10101 { opacity: 1; animation-name: k10101; }
-    @keyframes k01010 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 1; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
-    .p01010 { opacity: 0; animation-name: k01010; }
-    @keyframes k10000 { 0%, 18% { opacity: 1; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 1; } }
-    .p10000 { opacity: 1; animation-name: k10000; }
-    @keyframes k01000 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 1; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
-    .p01000 { opacity: 0; animation-name: k01000; }
-    @keyframes k00100 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 78% { opacity: 0; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
-    .p00100 { opacity: 0; animation-name: k00100; }
-    @keyframes k00010 { 0%, 18% { opacity: 0; } 20%, 38% { opacity: 0; } 40%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 98% { opacity: 0; } 100% { opacity: 0; } }
-    .p00010 { opacity: 0; animation-name: k00010; }
-
-    .sweep { animation: sweep 9s linear infinite; }
-    @keyframes sweep { 0% { transform: translateX(120px); } 65%, 100% { transform: translateX(820px); } }
-
-    @media (prefers-reduced-motion: reduce) {
-      .step, .role, .bit, .sweep { animation: none; }
-      .s1 { fill: #f0883e; }
-      .r1 { opacity: 1; }
-    }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 430" width="1120" height="430" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Nafiz — Building useful software</title>
+  <desc id="dsc">Premium editorial banner for Nafiz, a web application developer, with refined typography and a copper monogram.</desc>
   <defs>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#3d444d"/></pattern>
-    <pattern id="dotsA" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1.2" fill="#f0883e"/></pattern>
-    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
-      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
-    </linearGradient>
-    <linearGradient id="band" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-    <mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="250"><rect width="800" height="250" fill="url(#fade)"/></mask>
-    <mask id="sw" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="250"><rect class="sweep" x="-220" width="220" height="250" fill="url(#band)"/></mask>
-    <clipPath id="card"><rect x=".5" y=".5" width="799" height="249" rx="14"/></clipPath>
+    <linearGradient id="base" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#141922"/><stop offset="1" stop-color="#090e14"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e88c51" stop-opacity=".14"/><stop offset="1" stop-color="#e88c51" stop-opacity="0"/></radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc08c"/><stop offset=".55" stop-color="#e89152"/><stop offset="1" stop-color="#b75f35"/></linearGradient>
+    <pattern id="lines" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#69717e" stroke-opacity=".11" stroke-width="1"/></pattern>
+    <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".6" fill="#8c99a7" opacity=".23"/></pattern>
+    <clipPath id="outer"><rect x="1" y="1" width="1118" height="428" rx="20"/></clipPath>
+    <clipPath id="monoclip"><rect x="743" y="111" width="299" height="248" rx="18"/></clipPath>
   </defs>
-
-  <rect x=".5" y=".5" width="799" height="249" rx="14" fill="#151b23" stroke="#3d444d"/>
-  <g clip-path="url(#card)">
-    <g mask="url(#m)">
-      <rect width="800" height="250" fill="url(#dots)"/>
-      <rect width="800" height="250" fill="url(#dotsA)" mask="url(#sw)"/>
+  <rect x="1" y="1" width="1118" height="428" rx="20" fill="url(#base)" stroke="#38414b" stroke-width="1.5"/>
+  <g clip-path="url(#outer)">
+    <rect width="1120" height="430" fill="url(#lines)"/>
+    <circle cx="919" cy="178" r="302" fill="url(#glow)"/>
+    <path d="M0 380H1120" stroke="#343d47" stroke-width="1"/>
+    <rect x="0" y="381" width="1120" height="49" fill="#0c1118"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="61" y="61" fill="#f5f1eb" font-size="29" font-weight="800" letter-spacing="-1.2">N.</text>
+    <rect x="109" y="35" width="1" height="30" fill="#46505a"/>
+    <text x="133" y="54" fill="#cbd0d7" font-size="12.5" font-weight="650" letter-spacing="2.2">NAFIZ / WEB APP DEVELOPER</text>
+    <text x="1057" y="53" fill="#9eabb7" font-size="12" text-anchor="end" letter-spacing="1.2">SELECTED WORK — 2026</text>
+    <path d="M61 83H1059" stroke="#38424d" stroke-width="1"/>
+    <text x="58" y="180" fill="#f4f2ed" font-size="67" font-weight="760" letter-spacing="-2.9">Building useful</text>
+    <text x="58" y="254" fill="#f4f2ed" font-size="78" font-weight="800" letter-spacing="-3.9">software<tspan fill="#e9975e">.</tspan></text>
+    <rect x="61" y="276" width="53" height="3" rx="1.5" fill="url(#metal)"/>
+    <text x="61" y="315" fill="#b9c1cb" font-size="19" font-weight="400">Web applications, backend systems, and</text>
+    <text x="61" y="343" fill="#b9c1cb" font-size="19" font-weight="400">the automation that keeps things running.</text>
+  </g>
+  <g>
+    <rect x="755" y="123" width="298" height="247" rx="19" fill="#070b11" opacity=".6"/>
+    <rect x="743" y="111" width="299" height="248" rx="18" fill="#151b24" stroke="#4b4a49" stroke-width="1.5"/>
+    <g clip-path="url(#monoclip)">
+      <rect x="743" y="111" width="299" height="248" fill="url(#micro)"/>
+      <circle cx="896" cy="235" r="130" fill="url(#glow)"/>
+      <path d="M766 137H1019 M766 335H1019" stroke="#39424d" stroke-width=".8"/>
+      <path d="M801 297V173L979 297V173" fill="none" stroke="#553c2d" stroke-width="33" stroke-linecap="square" stroke-linejoin="miter" transform="translate(2 3)" opacity=".68"/>
+      <path d="M801 297V173L979 297V173" fill="none" stroke="url(#metal)" stroke-width="28" stroke-linecap="square" stroke-linejoin="miter"/>
+      <path d="M755 349L1041 111" stroke="#c17b4c" stroke-width="1" opacity=".24"/>
+      <path d="M743 170L842 111 M943 359L1042 260" stroke="#bd7346" stroke-width="1" opacity=".15"/>
+    </g>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+      <rect x="763" y="126" width="6" height="6" rx="1.5" fill="#e9975e"/>
+      <text x="779" y="133" fill="#a3aeba" font-size="11" letter-spacing="1.3">PERSONAL MARK</text>
+      <text x="1019" y="344" text-anchor="end" fill="#a3aeba" font-size="10.5" letter-spacing="1.1">N / 001</text>
     </g>
   </g>
-
-  <text class="mono" x="44" y="70" font-size="12.5" letter-spacing="2.5" fill="#f0883e">LEARNING IN PUBLIC</text>
-  <text class="sans" x="42" y="126" font-size="52" font-weight="700" fill="#f0f6fc">Hi, I'm Nafiz.</text>
-  <text class="sans role r1" x="44" y="160" font-size="20" fill="#9198a1">CS student · Python backend developer</text>
-  <text class="sans role r2" x="44" y="160" font-size="20" fill="#9198a1">Building subscription apps on bdapps</text>
-  <text class="sans role r3" x="44" y="160" font-size="20" fill="#9198a1">FastAPI · Django · bots · automations</text>
-  <text class="mono" x="44" y="202" font-size="14.5">
-    <tspan class="step s1">build</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s2">break</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s3">fix</tspan><tspan fill="#656c76"> → </tspan><tspan class="step s4">repeat</tspan>
-  </text>
-
-  <text class="mono" x="442" y="96" font-size="12.5" fill="#9198a1">nafiz-byte</text>
-  <text class="mono" x="756" y="96" font-size="12.5" fill="#656c76" text-anchor="end">1 byte at a time</text>
-
-  <g class="mono" font-size="16" font-weight="700" text-anchor="middle">
-    <rect x="442.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="459" y="130.5" fill="#656c76">0</text>
-    <g><rect x="482" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="499" y="130.5" fill="#151b23">1</text></g>
-    <rect x="522.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="539" y="130.5" fill="#656c76">0</text>
-    <rect x="562.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="579" y="130.5" fill="#656c76">0</text>
-    <g class="bit p00001"><rect x="562" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="579" y="130.5" fill="#151b23">1</text></g>
-    <rect x="602.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="619" y="130.5" fill="#656c76">0</text>
-    <g class="bit p10011"><rect x="602" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="619" y="130.5" fill="#151b23">1</text></g>
-    <rect x="642.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="659" y="130.5" fill="#656c76">0</text>
-    <g class="bit p10100"><rect x="642" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="659" y="130.5" fill="#151b23">1</text></g>
-    <rect x="682.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="699" y="130.5" fill="#656c76">0</text>
-    <g class="bit p10101"><rect x="682" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="699" y="130.5" fill="#151b23">1</text></g>
-    <rect x="722.5" y="108.5" width="33" height="33" rx="7" fill="#151b23" stroke="#3d444d"/>
-    <text x="739" y="130.5" fill="#656c76">0</text>
-    <g class="bit p01010"><rect x="722" y="108" width="34" height="34" rx="7" fill="#f0883e"/><text x="739" y="130.5" fill="#151b23">1</text></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="1.1">
+    <text x="61" y="411" fill="#f1a36e">01</text><text x="87" y="411" fill="#a4aeb9">WEB PRODUCTS</text>
+    <text x="342" y="411" fill="#f1a36e">02</text><text x="368" y="411" fill="#a4aeb9">PYTHON BACKENDS</text>
+    <text x="648" y="411" fill="#f1a36e">03</text><text x="674" y="411" fill="#a4aeb9">AUTOMATION</text>
+    <text x="1058" y="411" text-anchor="end" fill="#e9975e">NAFIZ.XYZ ↗</text>
   </g>
-
-  <text class="mono bit p10000" x="442" y="166" font-size="12.5" fill="#656c76">0x4E</text>
-  <text class="mono" x="672" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">N</text>
-  <text class="mono bit p10000" x="672" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">N</text>
-  <text class="mono bit p01000" x="442" y="166" font-size="12.5" fill="#656c76">0x41</text>
-  <text class="mono" x="692" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">A</text>
-  <text class="mono bit p01000" x="692" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">A</text>
-  <text class="mono bit p00100" x="442" y="166" font-size="12.5" fill="#656c76">0x46</text>
-  <text class="mono" x="712" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">F</text>
-  <text class="mono bit p00100" x="712" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">F</text>
-  <text class="mono bit p00010" x="442" y="166" font-size="12.5" fill="#656c76">0x49</text>
-  <text class="mono" x="732" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">I</text>
-  <text class="mono bit p00010" x="732" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">I</text>
-  <text class="mono bit p00001" x="442" y="166" font-size="12.5" fill="#656c76">0x5A</text>
-  <text class="mono" x="752" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#656c76">Z</text>
-  <text class="mono bit p00001" x="752" y="166" font-size="13" font-weight="700" text-anchor="middle" fill="#f0883e">Z</text>
 </svg>
