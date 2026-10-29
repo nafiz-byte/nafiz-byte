@@ -10,19 +10,49 @@ I build web applications with real-world integrations—phone OTP, subscription 
 
 ### Selected projects
 
-**[PromptForge Academy](https://github.com/nafiz-byte/promptforge-academy)** — [Live app](https://academy.nafiz.xyz/)  
-A seven-module prompt-engineering learning platform with quizzes, XP, leaderboards, PDF certificates, phone OTP sign-in, and carrier billing.  
-*FastAPI · SQLAlchemy · Jinja2*
+<table>
+  <tr>
+    <td width="57%" valign="middle">
+      <h3><a href="https://github.com/nafiz-byte/promptforge-academy">PromptForge Academy</a></h3>
+      <p>A seven-module prompt-engineering learning platform with quizzes, XP, leaderboards, PDF certificates, phone OTP sign-in, and carrier billing.</p>
+      <p><sub>FastAPI · SQLAlchemy · Jinja2</sub></p>
+      <p><a href="https://academy.nafiz.xyz/">Live app ↗</a> · <a href="https://github.com/nafiz-byte/promptforge-academy">Source code</a></p>
+    </td>
+    <td width="43%" valign="middle">
+      <a href="https://github.com/nafiz-byte/promptforge-academy">
+        <img src="./assets/card-promptforge.svg" width="100%" alt="Preview card for PromptForge Academy" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="57%" valign="middle">
+      <h3><a href="https://github.com/nafiz-byte/quizfy">QuizFy</a></h3>
+      <p>A Bangla quiz application that generates multiple-choice questions using an LLM, with OTP sign-in, subscription billing, and a leaderboard.</p>
+      <p><sub>Django · PostgreSQL</sub></p>
+      <p><a href="https://github.com/nafiz-byte/quizfy">Source code ↗</a></p>
+    </td>
+    <td width="43%" valign="middle">
+      <a href="https://github.com/nafiz-byte/quizfy">
+        <img src="./assets/card-quizfy.svg" width="100%" alt="Preview card for QuizFy" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="57%" valign="middle">
+      <h3><a href="https://github.com/nafiz-byte/bdapps-agent">bdapps Revenue Agent</a></h3>
+      <p>A Python workflow that collects revenue from multiple bdapps developer accounts and sends a consolidated Telegram report, with tests and automated runs.</p>
+      <p><sub>Python · pytest · GitHub Actions</sub></p>
+      <p><a href="https://github.com/nafiz-byte/bdapps-agent">Source code ↗</a></p>
+    </td>
+    <td width="43%" valign="middle">
+      <a href="https://github.com/nafiz-byte/bdapps-agent">
+        <img src="./assets/card-bdapps-agent.svg" width="100%" alt="Preview card for bdapps Revenue Agent" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-**[QuizFy](https://github.com/nafiz-byte/quizfy)**  
-A Bangla quiz app that generates multiple-choice questions using an LLM, with OTP sign-in, subscription billing, and a leaderboard.  
-*Django · PostgreSQL*
-
-**[bdapps Revenue Agent](https://github.com/nafiz-byte/bdapps-agent)**  
-A Python workflow that collects revenue from multiple bdapps developer accounts and sends a consolidated Telegram report, with tests and automated runs.  
-*Python · pytest · GitHub Actions*
-
-**[nasaPics](https://github.com/nafiz-byte/nasaPics)** — A small Streamlit app built around NASA's Astronomy Picture of the Day API.
+**Other projects:** [nasaPics](https://github.com/nafiz-byte/nasaPics) — a small Streamlit app using NASA's Astronomy Picture of the Day API.
 
 ### A closer look at my backend work
 
