@@ -1,81 +1,41 @@
-<p align="center">
-  <img src="./assets/hero-premium-v3.svg" width="100%" alt="Nafiz — building useful web applications, backend systems and automations" />
-</p>
+# Nafiz
 
-<p align="center">
-  <a href="https://nafiz.xyz/"><b>Portfolio</b></a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/md-nafis-uddin-98949530a/">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="mailto:nafizuddin1537@gmail.com">Email</a>
-</p>
+**Web Application Developer** · Python, FastAPI & Django
 
-I'm **Nafiz**, a web application developer and computer science student. I turn ideas into useful software—mostly with **Python, FastAPI, and Django**. I like building real products, connecting APIs, and automating the work behind the scenes.
+I build web applications with real-world integrations—phone OTP, subscription billing, AI-assisted learning products, and the automation that keeps them running. I'm especially interested in backend systems that connect different services into one useful product.
 
-My focus is straightforward: **build with purpose, ship thoughtfully, and keep improving.**
+[Website](https://nafiz.xyz/) · [LinkedIn](https://www.linkedin.com/in/md-nafis-uddin-98949530a/) · [Email](mailto:nafizuddin1537@gmail.com)
 
 ---
 
-## 01 — Selected work
+### Selected projects
 
-A few things I've built, from learning platforms to backend integrations and automation.
+**[PromptForge Academy](https://github.com/nafiz-byte/promptforge-academy)** — [Live app](https://academy.nafiz.xyz/)  
+A seven-module prompt-engineering learning platform with quizzes, XP, leaderboards, PDF certificates, phone OTP sign-in, and carrier billing.  
+*FastAPI · SQLAlchemy · Jinja2*
 
-<a href="https://github.com/nafiz-byte/promptforge-academy"><img src="./assets/card-promptforge.svg" width="100%" alt="PromptForge Academy — FastAPI-powered learning platform" /></a>
+**[QuizFy](https://github.com/nafiz-byte/quizfy)**  
+A Bangla quiz app that generates multiple-choice questions using an LLM, with OTP sign-in, subscription billing, and a leaderboard.  
+*Django · PostgreSQL*
 
-### PromptForge Academy
-**Learning platform** · FastAPI / SQLAlchemy / Jinja2
+**[bdapps Revenue Agent](https://github.com/nafiz-byte/bdapps-agent)**  
+A Python workflow that collects revenue from multiple bdapps developer accounts and sends a consolidated Telegram report, with tests and automated runs.  
+*Python · pytest · GitHub Actions*
 
-A seven-module prompt-engineering course with lessons, quizzes, XP, leaderboard, completion certificates, phone OTP sign-in, and carrier billing.
+**[nasaPics](https://github.com/nafiz-byte/nasaPics)** — A small Streamlit app built around NASA's Astronomy Picture of the Day API.
 
-[**Live website ↗**](https://academy.nafiz.xyz/) &nbsp;·&nbsp; [Source code](https://github.com/nafiz-byte/promptforge-academy)
+### A closer look at my backend work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/nafiz-byte/quizfy"><img src="./assets/card-quizfy.svg" width="100%" alt="QuizFy — AI-assisted Bangla quiz application" /></a>
-      <h3>QuizFy</h3>
-      <p><b>Quiz application</b> · Django / PostgreSQL</p>
-      <p>AI-generated Bangla quizzes, topic-based practice, OTP sign-in, subscription billing, and a leaderboard.</p>
-      <a href="https://github.com/nafiz-byte/quizfy">Explore project ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/nafiz-byte/bdapps-agent"><img src="./assets/card-bdapps-agent.svg" width="100%" alt="bdapps Revenue Agent — reporting automation" /></a>
-      <h3>bdapps Revenue Agent</h3>
-      <p><b>Reporting automation</b> · Python / pytest / GitHub Actions</p>
-      <p>Collects app revenue across multiple developer accounts and delivers a single Telegram report.</p>
-      <a href="https://github.com/nafiz-byte/bdapps-agent">Explore project ↗</a>
-    </td>
-  </tr>
-</table>
+My bdapps integrations include OTP verification, subscription callbacks, carrier billing, and revenue reporting. This is the sort of engineering I enjoy: turning several separate APIs and workflows into one usable product.
 
-**Also explored:** [nasaPics](https://github.com/nafiz-byte/nasaPics) · [Chatbot AI](https://github.com/nafiz-byte/Chatbot_Ai)
+<img src="./assets/bdapps-flow.svg" width="100%" alt="OTP verification, subscription, carrier billing, and revenue reporting workflow" />
+
+### Tools
+
+**Working with:** Python, FastAPI, Django, PostgreSQL, SQLite, SQLAlchemy, Git, Linux, REST APIs, GitHub Actions
+
+**Learning more about:** Docker, AWS, data structures & algorithms
 
 ---
 
-## 02 — Under the hood
-
-I enjoy the less visible parts of great web apps: authentication, clean APIs, subscription flows, background jobs, and reliable integrations.
-
-<img src="./assets/bdapps-flow.svg" width="100%" alt="OTP, verification, subscription, carrier billing, and reporting workflow" />
-
-**An example from my work:** integrating bdapps OTP, subscription, and carrier-billing APIs with Django and FastAPI apps, handling callbacks, and automating revenue reporting across developer accounts.
-
----
-
-## 03 — My toolkit
-
-**Core** &nbsp; Python · FastAPI · Django · SQLite · Git · Linux
-
-**Used in projects** &nbsp; PostgreSQL · SQLAlchemy · Jinja2 · REST APIs · pytest · GitHub Actions
-
-**Learning further** &nbsp; Docker · AWS · data structures and algorithms
-
-<sub>Also familiar with C and Java.</sub>
-
----
-
-## 04 — Let's build something useful
-
-I'm always interested in thoughtful products, engineering problems, and learning with other builders.
-
-**[Explore my portfolio ↗](https://nafiz.xyz/)** &nbsp;·&nbsp; **[Say hello](mailto:nafizuddin1537@gmail.com)**
-
-<sub>Build with purpose. Ship. Learn. Repeat.</sub>
+For more about my work, visit **[nafiz.xyz](https://nafiz.xyz/)**.
