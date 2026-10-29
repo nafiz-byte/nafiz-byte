@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Nafiz — building useful web applications, backend systems and automations" />
+  <img src="./assets/hero-premium-v3.svg" width="100%" alt="Nafiz — building useful web applications, backend systems and automations" />
 </p>
 
 <p align="center">
